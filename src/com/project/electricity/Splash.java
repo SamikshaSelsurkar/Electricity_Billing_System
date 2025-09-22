@@ -14,8 +14,6 @@ public class Splash extends JFrame {
 		JLabel imageLabel = new JLabel(imageIcon2);
 		add(imageLabel);
 		
-		
-		
 	setSize(500, 500);	
 	setLocation(500, 200);
 	setVisible(true);
