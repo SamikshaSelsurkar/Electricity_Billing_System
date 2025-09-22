@@ -55,7 +55,6 @@ public class calculate_bill extends JFrame implements ActionListener{
 				meternumCho.add(resultset.getString("meterno"));
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		meternumCho.setBounds(180,80,100,20);

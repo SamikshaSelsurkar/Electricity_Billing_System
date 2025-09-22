@@ -37,7 +37,6 @@ public class bill_details extends JFrame implements ActionListener{
 			
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	
@@ -50,7 +49,6 @@ public class bill_details extends JFrame implements ActionListener{
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 	public static void main(String[] args) {
