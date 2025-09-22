@@ -70,9 +70,7 @@ public class customer_details extends JFrame implements ActionListener{
 		database c = new database();
 		ResultSet resultset = c.statement.executeQuery("select * from new_customer");
 		
-		while (resultset.next()) {
-//			searchnameCho.add(resultset.getString("name"));
-			
+		while (resultset.next()) {			
 			String name = resultset.getString("name");
 		    if (name != null) {  
 		        searchnameCho.add(name);
@@ -91,7 +89,6 @@ public class customer_details extends JFrame implements ActionListener{
 		table.setModel(DbUtils.resultSetToTableModel(resultset));
 		
 	} catch (SQLException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	
@@ -135,7 +132,6 @@ public class customer_details extends JFrame implements ActionListener{
 				table.setModel(DbUtils.resultSetToTableModel(resultset));
 				
 			} catch (SQLException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		}

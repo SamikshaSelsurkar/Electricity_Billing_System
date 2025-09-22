@@ -18,7 +18,6 @@ public class Splash extends JFrame {
 	setLocation(500, 200);
 	setVisible(true);
 	
-	
 	try {
 		Thread.sleep(3000);
 		setVisible(false);
