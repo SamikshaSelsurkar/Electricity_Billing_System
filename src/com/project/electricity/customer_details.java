@@ -65,7 +65,6 @@ public class customer_details extends JFrame implements ActionListener{
 	searchnameCho.setBounds(520,20,150,20);
 	add(searchnameCho);
 	
-	
 	try {
 		database c = new database();
 		ResultSet resultset = c.statement.executeQuery("select * from new_customer");
